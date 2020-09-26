@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Facebook</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+
+<main>
+      <section class="lists">
+        <ul class="AllLists">
+          <ul class="list">
+            <li>
+              <div>
+                <img src="./images/Profile.jpg" alt="" />
+                <h2>Rawand Rebwar</h2>
+              </div>
+            </li>
+            <li>
+              <div>
+                <img src="./images/List/Corona.png" alt="" />
+                <h2>COVID-19 Information Center</h2>
+              </div>
+            </li>
+            <li>
+              <div>
+                <img src="./images/List/messenger.png" alt="" />
+                <h2>Messenger</h2>
+              </div>
+            </li>
+            <li>
+              <div>
+                <img src="./images/List/saved.png" alt="" />
+                <h2>Saved</h2>
+              </div>
+            </li>
+            <li>
+              <div>
+                <img src="./images/List/Friends.png" alt="" />
+                <h2>Friends</h2>
+              </div>
+            </li>
+            <li>
+              <div>
+                <i class="fas fa-angle-down" id="seeMore"></i>
+                <h2>See More</h2>
+              </div>
+            </li>
+          </ul>
+          <div class="List-bottom">
+            <ul class="list-bottom">
+              <div class="shortcut">
+                <h2>Shortcuts</h2>
+                <span>edit</span>
+              </div>
+              <li>
+                <div>
+                  <img src="./images/Groups/Taco.jpg" alt="">
+                  <h2>TACO Group</h2>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <img src="./images/Groups/Taco.jpg" alt="">
+                  <h2>TACO Group</h2>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <img src="./images/Groups/Taco.jpg" alt="">
+                  <h2>TACO Group</h2>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <img src="./images/Groups/Taco.jpg" alt="">
+                  <h2>TACO Group</h2>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <img src="./images/Groups/Taco.jpg" alt="">
+                  <h2>TACO Group</h2>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <i class="fas fa-angle-down" id="seeMore"></i>
+                  <h2>See More</h2>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
