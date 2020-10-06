@@ -1,0 +1,188 @@
+/* PUBLISH POST */
+.publishPost {
+  width: 68%;
+  height: 130px;
+  background-color: #242526;
+  margin: 0 auto 15px;
+  border-radius: 10px;
+}
+
+.publishPost .porfileAndInput {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 10px 0;
+  border-bottom: 1px solid #d1d3d6;
+}
+
+.publishPost .porfileAndInput img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.publishPost .porfileAndInput input {
+  width: 100%;
+  margin-left: 10px;
+  height: 40px;
+  border-radius: 20px;
+  padding: 0 10px;
+  border: none;
+  outline: none;
+  background-color: #3a3b3c;
+  color: #d1d3d6;
+  cursor: pointer;
+  transition: background-color 0.4s;
+}
+
+.publishPost .porfileAndInput input::placeholder {
+  font-size: 1rem;
+  color: #d1d3d6;
+}
+
+.publishPost .porfileAndInput input:hover {
+  background-color: #3f4044;
+}
+
+.publishPost .Activity {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.publishPost .Activity li:hover {
+  background-image: linear-gradient(
+    rgba(161, 162, 163, 0.2),
+    rgba(161, 162, 163, 0.2)
+  );
+}
+
+.publishPost .Activity li {
+  border-radius: 10px;
+  margin-top: 5px;
+}
+
+.publishPost .Activity li div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.publishPost .Activity li div img {
+  width: 25px;
+  height: 25px;
+  object-fit: cover;
+}
+
+.publishPost .Activity li div h3 {
+  font-size: 1rem;
+  font-family: sans-serif;
+  font-weight: lighter;
+  margin-left: 5px;
+  color: #d1d3d6;
+}
+
+/* ROOMS */
+.rooms {
+  width: 68%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #242526;
+  padding: 10px 0;
+  border-radius: 7px;
+  overflow: hidden;
+}
+
+.rooms .roomsUp {
+  width: 93%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.rooms .roomsUp .iconRoom {
+  width: 17%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #d1d3d6;
+}
+
+.rooms .roomsUp .iconRoom h4{
+  font-size: 1rem;
+  font-family: sans-serif;
+  margin-left: 10px;
+}
+
+.CretaeRoom {
+  color: dodgerblue;
+  font-size: 0.7rem;
+  font-weight: lighter;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+}
+
+.rooms .roomsUp .iconRoom img {
+  width: 25px;
+  height: 25px;
+  object-fit: cover;
+}
+
+.rooms .roomDown {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 95%;
+  margin: 0 auto;
+  padding: 10px 0 5px;
+}
+
+.rooms .roomDown img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: filter 0.4s;
+}
+
+.rooms .roomDown img:hover {
+  filter: brightness(120%);
+}
+
+.MyPro {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  position: relative;
+}
+
+.MyPro img:last-of-type{
+  filter: blur(.5px);
+}
+
+.MyPro img:first-of-type{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 30px !important;
+  height: 30px !important;
+  z-index: 2;
+}
